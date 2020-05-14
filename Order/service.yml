@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: order
+  name: order
+spec:
+  type: NodePort
+  ports:
+  - port: 8082
+    protocol: TCP
+    targetPort: 8082
+    nodePort: 31232
+  selector:
+    app: order
+  
