@@ -1,0 +1,21 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  application:
+    name: ORDER-SERVICE
+  datasource:
+    platform: true
+    url: jdbc:h2:mem:orderdb
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+method: payThrougBank
+
+paymentPort: http://localhost:8082/payment/
+
