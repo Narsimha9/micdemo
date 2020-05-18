@@ -4,7 +4,7 @@ node {
  checkout scm
 
     docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
-        dir ('Test') {
+        dir ('Order') {
           bat 'mvn clean'
             bat 'mvn package'
        def customImage = docker.build("simhalp9/micro")
