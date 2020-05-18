@@ -24,9 +24,9 @@
 		<module>Order</module>
 		<module>payment</module>
 		<module>API-Spring-Gateway</module>
-		<module>CloudCongifServer/module>
+		<module>CloudCongifServer</module>
 		<module>ThirdPartyService</module>
-    <module>EurekaServer</module>
+                <module>EurekaServer</module>
 	</modules>
 
 </project>
