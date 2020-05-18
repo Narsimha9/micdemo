@@ -22,3 +22,6 @@ my:
 
 thirdPartyPort: http://localhost:8083/thirdparty
 
+eureka:
+  serviceUrl:
+    defaultzone:http://localhost:8761/eureka
