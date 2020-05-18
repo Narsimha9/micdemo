@@ -19,3 +19,7 @@ method: payThrougBank
 
 paymentPort: http://localhost:8082/payment/
 
+eureka:
+  serviceUrl:
+    defaultZone:http://localhost:8761/eureka
+
